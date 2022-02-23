@@ -11,3 +11,9 @@ npm start start-tailwind
 tailwind.config.js
 
 tailwind/
+
+## Test
+
+http://localhost:8000/portal/
+
+http://localhost:8000/portal/components/
