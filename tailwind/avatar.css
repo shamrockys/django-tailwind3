@@ -1,0 +1,11 @@
+.brand-avatar {
+  @apply tw-inline-block tw-h-6 tw-w-6 tw-rounded-full tw-ring-2 tw-ring-white tw-bg-white
+}
+
+.brand-avatar-text {
+  @apply tw-inline-flex tw-items-center tw-justify-center tw-h-6 tw-px-2 tw-rounded-full tw-ring-2 tw-ring-white tw-bg-gray-100 tw-text-xs tw-font-medium
+}
+
+.brand-avatar-list {
+  @apply tw-flex -tw-space-x-2
+}

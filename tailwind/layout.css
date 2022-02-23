@@ -1,0 +1,15 @@
+.brand-layout-sidebar {
+  @apply tw-w-[60px] tw-shrink-0 tw-h-full tw-border-r tw-border-[#edeef3] tw-flex tw-flex-col
+}
+
+.brand-layout-sidebar-logo {
+  @apply tw-flex tw-flex-col tw-items-center tw-py-[12px]
+}
+
+.brand-layout-sidebar-body {
+  @apply tw-flex-grow tw-flex tw-flex-col tw-items-center tw-py-[12px] tw-space-y-2
+}
+
+.brand-layout-main {
+  @apply tw-flex-grow tw-overflow-auto
+}

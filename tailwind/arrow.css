@@ -1,0 +1,15 @@
+.brand-arrow-up {
+  @apply tw-w-0 tw-h-0 tw-border-l-[7px] tw-border-r-[7px] tw-border-b-[10px] tw-border-solid !tw-border-l-transparent !tw-border-r-transparent !tw-border-t-transparent
+}
+
+.brand-arrow-down {
+  @apply tw-w-0 tw-h-0 tw-border-l-[7px] tw-border-r-[7px] tw-border-t-[10px] tw-border-solid !tw-border-l-transparent !tw-border-r-transparent !tw-border-b-transparent
+}
+
+.brand-arrow-left {
+  @apply tw-w-0 tw-h-0 tw-border-t-[7px] tw-border-b-[7px] tw-border-r-[10px] tw-border-solid !tw-border-t-transparent !tw-border-b-transparent !tw-border-l-transparent
+}
+
+.brand-arrow-right {
+  @apply tw-w-0 tw-h-0 tw-border-t-[7px] tw-border-b-[7px] tw-border-l-[10px] tw-border-solid !tw-border-t-transparent !tw-border-b-transparent !tw-border-r-transparent
+}

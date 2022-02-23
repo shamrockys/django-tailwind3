@@ -1,0 +1,11 @@
+.brand-bar-sm {
+  @apply tw-w-full tw-h-1.5 tw-rounded-full tw-bg-gray-200
+}
+
+.brand-bar-md {
+  @apply tw-w-full tw-h-2.5 tw-rounded-full tw-bg-gray-200
+}
+
+.brand-bar-inside {
+  @apply tw-h-full tw-rounded-full tw-bg-gray-600
+}

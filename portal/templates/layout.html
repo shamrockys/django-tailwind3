@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="tw-flex tw-h-screen">
+  <div class="brand-layout-sidebar">
+    <div class="brand-layout-sidebar-logo">
+      <a class="brand-logo" href="/">
+        <i class="fa-brands fa-pix"></i>
+      </a>
+    </div>
+    <div class="brand-layout-sidebar-body">
+      <button class="brand-btn-icon-md tw-bg-secondary-100 tw-text-secondary-500">
+        <i class="fa-regular fa-credit-card"></i>
+      </button>
+      <button class="brand-btn-icon-md tw-bg-white tw-text-black">
+        <i class="fa-solid fa-users"></i>
+      </button>
+      <div class="tw-flex-1"></div>
+      <button class="brand-btn-icon-md tw-bg-gray-100 tw-text-black tw-rounded-full">
+        <i class="fa-regular fa-user"></i>
+      </button>
+    </div>
+  </div>
+  {% block content %}
+  {% endblock %}
+</div>
+
+{% endblock %}

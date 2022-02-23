@@ -1,0 +1,3 @@
+.brand-logo {
+  @apply tw-w-[40px] tw-h-[40px] tw-rounded-full tw-bg-gray-500 tw-flex tw-items-center tw-justify-center tw-text-white
+}

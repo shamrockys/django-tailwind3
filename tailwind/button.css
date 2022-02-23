@@ -1,0 +1,19 @@
+.brand-btn {
+  @apply tw-inline-flex tw-items-center tw-justify-center tw-opacity-100 hover:tw-opacity-80 active:tw-opacity-100 tw-transition-all tw-bg-gray-900 tw-text-white
+}
+
+.brand-btn-md {
+  @apply brand-btn tw-h-[40px] tw-px-[24px] tw-rounded-[8px] tw-text-sm
+}
+
+.brand-btn-lg {
+  @apply brand-btn tw-h-[48px] tw-px-[24px] tw-rounded-[12px]
+}
+
+.brand-btn-icon-md {
+  @apply brand-btn tw-h-[40px] tw-w-[40px] tw-rounded-[8px]
+}
+
+.brand-btn-icon-lg {
+  @apply brand-btn tw-h-[48px] tw-w-[48px] tw-rounded-[12px]
+}

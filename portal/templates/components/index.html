@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+{% endblock %}
+
+{% block main %}
+
+<div class="tw-bg-slate-300 tw-min-h-screen">
+  {% include 'components/button.html' %}
+  {% include 'components/card.html' %}
+  {% include 'components/tab.html' %}
+  {% include 'components/avatar.html' %}
+  {% include 'components/arrow.html' %}
+  {% include 'components/bar.html' %}
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script>
+
+  jQuery(function () {
+    jQuery("#tabs").tabs({
+      active: 0
+    });
+  });
+
+</script>
+{% endblock %}

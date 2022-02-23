@@ -1,0 +1,7 @@
+.brand-card {
+  @apply tw-px-[24px] tw-py-[24px] tw-rounded-[16px] tw-shadow-xl tw-shadow-[#0001] tw-bg-white
+}
+
+.brand-card-transparent {
+  @apply tw-px-[24px] tw-py-[24px] tw-rounded-[16px] tw-shadow-[0_0_0_2px_#fff] tw-shadow-light-200
+}

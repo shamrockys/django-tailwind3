@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="brand-layout-main tw-bg-light-100" id="tabs">
+  <!-- heading start -->
+  <div class="tw-bg-white tw-pt-8 tw-px-8">
+
+    {% include 'pages/home/sections/menu-top.html' %}
+
+    <!-- tab menu start -->
+    <div>
+      <ul class="brand-tabs">
+        <li>
+          <a class="brand-tab" href="#tab-overview">
+            Overview
+          </a>
+        </li>
+        <li>
+          <a class="brand-tab" href="#tab-people">
+            People
+          </a>
+        </li>
+        <li>
+          <a class="brand-tab" href="#tab-agenda">
+            Agenda
+          </a>
+        </li>
+        <li>
+          <a class="brand-tab" href="#tab-design">
+            Design
+          </a>
+        </li>
+        <li>
+          <a class="brand-tab" href="#tab-emails">
+            Emails
+          </a>
+        </li>
+        <li>
+          <a class="brand-tab" href="#tab-settings">
+            Settings
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- tab menu end -->
+
+  </div>
+  <!-- heading end -->
+
+  <!-- tab panel start -->
+  <div class="tw-p-8">
+    <div id="tab-overview">
+      {% include 'pages/home/sections/overview-summit.html' %}
+      {% include 'pages/home/sections/overview-stats.html' %}
+    </div>
+    <div id="tab-people">
+      People
+    </div>
+    <div id="tab-agenda">
+      Agenda
+    </div>
+    <div id="tab-design">
+      Design
+    </div>
+    <div id="tab-emails">
+      Emails
+    </div>
+    <div id="tab-settings">
+      Settings
+    </div>
+  </div>
+  <!-- tab panel end -->
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script>
+  jQuery(function () {
+    jQuery("#tabs").tabs({
+      active: 0
+    });
+  });
+</script>
+{% endblock %}

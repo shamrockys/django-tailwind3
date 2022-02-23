@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+
+@import "./arrow.css";
+@import "./avatar.css";
+@import "./button.css";
+@import "./bar.css";
+@import "./card.css";
+@import "./layout.css";
+@import "./logo.css";
+@import "./tab.css";
+
+@import "tailwindcss/utilities";
